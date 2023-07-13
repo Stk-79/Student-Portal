@@ -1,0 +1,23 @@
+{
+  "name": "student-portal",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">🏫 Student - Portal </h1>\r The project is designed as per task given under the MERN stack internship program.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stk-79/Student-Portal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stk-79/Student-Portal/issues"
+  },
+  "homepage": "https://github.com/Stk-79/Student-Portal#readme",
+  "dependencies": {
+    "node-modules": "^1.0.1"
+  }
+}
