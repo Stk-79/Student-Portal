@@ -1,1 +1,91 @@
-
+{
+  "users": [
+    {
+      "email": "dj@gmail.com",
+      "name": "dhiraj",
+      "password": "1234",
+      "id": 1
+    }
+  ],
+  "cen": [
+    {
+      "name": "Navneet Singh",
+      "email": "navneet@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Shraddha Mishra",
+      "email": "shraddha@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Nikhil",
+      "email": "nikhil@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Dhiraj",
+      "email": "dhiraj@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Sarthak",
+      "email": "sarthak@yahoo.com",
+      "id": 5
+    },
+    {
+      "name": "shyam",
+      "email": "shyam12@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Smaaraki",
+      "email": "barsha20yahoo.com",
+      "id": 8
+    },
+    {
+      "name": "shubh",
+      "email": "shubh1@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "Kumar",
+      "email": "kumbh@gmail.com",
+      "id": 10
+    }
+  ],
+  "cse": [
+    {
+      "id": 2,
+      "name": "Jane cse Doe",
+      "email": "janedoe@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Jenny cse Doe",
+      "email": "jennydoe@example.com"
+    }
+  ],
+  "cst": [
+    {
+      "id": 1,
+      "name": "John cst Doe",
+      "email": "johndoe@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane cst Doe",
+      "email": "janedoe@example.com"
+    },
+    {
+      "name": "Ram",
+      "email": "ram21@yahoo.com",
+      "id": 4
+    },
+    {
+      "name": "hari",
+      "email": "hari_rock5@hotmail.com",
+      "id": 5
+    }
+  ]
+}
