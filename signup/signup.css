@@ -1,61 +1,103 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
-
 }
-body{
+
+body {
     background-color: white;
 }
-nav{
+
+/* nav {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 50%;
-}
-#signup_div{
+} */
+
+nav {
     display: flex;
-    /* justify-content: center; */
-    height: 100vh;
-    align-items: center;
-    flex-direction: column;     
-    
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
 }
 
-#sign_up{
+nav a {
+    background-color: #ffcc01;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    margin: 30px 70px;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: ease-in-out 0.3s;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #ffcc01;
+    box-shadow: 0 3px 3px 0 rgba(247, 226, 3, 0.5);
+    padding: 5px;
+    text-align: center;
+    font-size: x-large;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: ease-in-out 0.3s;
+}
+
+#signup_div {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#sign_up {
     margin-top: 50px;
     text-align: center;
-    background-color: #ffcc01; 
+    background-color: #ffcc01;
     border-radius: 40px;
     padding-bottom: 20px;
-    width: 75%;
+    width: 50%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-input{
+
+input {
     display: block;
     width: 350px;
     height: 40px;
-    margin: 20px;
+    margin: 20px 205px;
     border: none;
     outline: none;
     font-size: 20px;
     border-bottom: 1px solid black;
-    background: transparent;
+    background: black;
+    color: white;
     /* color: white; */
 }
-::placeholder{
-    color: white;
+
+::placeholder {
+    color: rgb(143, 135, 135);
 }
-button{
+
+button {
     width: 350px;
     height: 40px;
     font-size: 20px;
     background-color: rgb(15, 204, 214);
     border: none;
+    border-radius: 8px;
     color: white;
     margin-top: 20px;
 }
-h1{
+
+h1 {
     margin-bottom: 30px;
-    color: white;
+    color: black;
 }
