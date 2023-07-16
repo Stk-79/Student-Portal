@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CEN Branch Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="student-details.css" />
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        /* background-color: black; */
+      }
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      thead {
+        background-color: rebeccapurple;
+        width: 120%;
+      }
+      th {
+        background-color: #f2f2f2;
+        color: #333;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <div id="s">
+        <img src="/images/profile.png" alt="" />
+        <p>ADMIN</p>
+      </div>
+      <a href="">
+        <button id="sign-out-button"><b>Sign Out</b></button>
+      </a>
+    </nav>
+    <div id="branch" style="display: none">cen</div>
+    <div id="title">STUDENT DETAILS - CEN</div>
+    <div class="container">
+      <div id="p1">
+        <table class="table-container">
+          <thead>
+            <tr>
+              <th class="id-col">Student ID</th>
+              <th class="name-col">Name</th>
+              <th class="email-col">Email</th>
+              <th class="btn-col"></th>
+            </tr>
+          </thead>
+        </table>
+        <table class="table-container">
+          <div id="table"></div>
+        </table>
+      </div>
+      <button id="add-student-button">Add Student</button>
+    </div>
+
+    <script type="text/javascript" src="./details.js"></script>
+    <script type="text/javascript" src="./cen_add.js"></script>
+  </body>
+</html>
