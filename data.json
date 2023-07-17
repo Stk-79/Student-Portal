@@ -5,6 +5,12 @@
       "name": "dhiraj",
       "password": "1234",
       "id": 1
+    },
+    {
+      "email": "vijay23@gmail.com",
+      "name": "Vijay",
+      "password": "vijay123",
+      "id": 2
     }
   ],
   "cen": [
