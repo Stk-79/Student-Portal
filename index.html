@@ -3,7 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
-  <body></body>
+
+  <body>
+    <nav>
+      <div id="s">
+        <img src="./images/profile.png" alt="" />
+        <h1>WELCOME</h1>
+      </div>
+      <div class="sign">
+        <p id="signin">
+          <a href="./signin/signin.html" id="signInLink">Sign In</a>
+        </p>
+        <p id="signout">
+          <a href="./signup/signup.html" id="signUpLink">Sign Up</a>
+        </p>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="extra">
+        <div class="left-container">
+          <div class="one">
+            <h2>Welcome to</h2>
+          </div>
+          <div class="two">
+            <h1>Student Portal</h1>
+          </div>
+
+          <div class="three">
+            <h5>
+              We are delighted to have you here, where you can access a wide
+              range of resources and tools designed to enhance your academic
+              journey. Our student portal is your gateway to a wealth of
+              information and services, all tailored to support your success and
+              make your educational experience exceptional.
+            </h5>
+          </div>
+          <div class="btn">
+            <a href="./signup/signup.html" id="getStartedLink">Get Started</a>
+          </div>
+        </div>
+
+        <!-- <hr> -->
+        <div class="right-container">
+          <div id="image">
+            <img
+              src="https://img.freepik.com/premium-vector/education-distance-education-internet-studying-elearning-remote-learning-flat-vector_1200-839.jpg?w=360"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document
+        .getElementById("getStartedLink")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          window.location.href = "./signup/signup.html";
+        });
+      document
+        .getElementById("signInLink")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          window.location.href = "./signin/signin.html";
+        });
+
+      document
+        .getElementById("signUpLink")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          window.location.href = "./signup/signup.html";
+        });
+    </script>
+  </body>
 </html>
