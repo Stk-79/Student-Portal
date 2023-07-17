@@ -70,14 +70,24 @@
       "id": 3,
       "name": "Jenny cse Doe",
       "email": "jennydoe@example.com"
+    },
+    {
+      "name": "Shree",
+      "email": "shree11@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Paras",
+      "email": "parasdragon@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Navneet",
+      "email": "navneet12@gmail.com",
+      "id": 6
     }
   ],
   "cst": [
-    {
-      "id": 1,
-      "name": "John cst Doe",
-      "email": "johndoe@example.com"
-    },
     {
       "id": 2,
       "name": "Jane cst Doe",
