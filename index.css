@@ -1,1 +1,203 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
 
+nav {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    /* color: hsl(195, 33%, 20%); */
+}
+
+#s {
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+}
+
+#s img {
+    margin: 5px 20px;
+    border: 3px solid black;
+    border-radius: 50px;
+    height: 52px;
+    width: 52px;
+    transition: ease-in-out 0.4s;
+}
+
+#s img:hover {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+    background-color: #ffcc01;
+    margin-right: 20px;
+    border-radius: 50px;
+    height: 52px;
+    width: 52px;
+    transition: ease-in-out 0.4s;
+}
+
+#s p {
+    margin-top: 10px;
+    font-size: x-large;
+    text-align: center;
+    /*border: 1px solid black;*/
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    text-align: center;
+}
+
+#signin,
+#signout {
+    padding: 5px;
+    justify-content: center;
+    margin: 15px;
+}
+
+#signin a,
+#signout a {
+    background-color: #ffcc01;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: x-large;
+    justify-content: center;
+    width: 200px;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: ease-in-out 0.3s;
+}
+
+#signin a:hover,
+#signout a:hover {
+    background-color: black;
+    color: #ffcc01;
+    box-shadow: 0 3px 3px 0 rgba(247, 226, 3, 0.5);
+    text-align: center;
+    font-size: x-large;
+    justify-content: center;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: ease-in-out 0.3s;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 98%;
+    margin: 2px 15px;
+    border-radius: 50px;
+    background-color: #ffcc01;
+    box-shadow: 0 0 20px 2px;
+}
+
+.extra {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.left-container {
+    display: flex;
+    flex: 60%;
+    flex-wrap: wrap;
+    color: hsl(190, 14%, 15%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    font-size: x-large;
+}
+
+.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.two {
+    font-size: xx-large;
+}
+
+.one,
+.two,
+.three {
+    display: flex;
+    justify-content: left;
+}
+
+.two,
+.three {
+    margin-top: -70px;
+}
+
+.three {
+    font-weight: -10;
+}
+
+#image img {
+    border: 0px solid black;
+    border-radius: 40px;
+    width: 500px;
+    box-shadow: 0 0 10px 0.5px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+.btn {
+    font-family: "Poppins", sans-serif;
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding: 1%;
+    margin-left: 4.7%;
+}
+
+#getStartedLink:hover {
+    color: rgb(22, 22, 21);
+}
+
+a {
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+@media (max-width: 800px) {
+
+    .left-container,
+    .right-container {
+        flex: 100%;
+    }
+}
+
+@media (max-width: 1130px) {
+    .container {
+        height: 800px;
+    }
+}
