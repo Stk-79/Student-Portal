@@ -12,6 +12,20 @@ The project is designed as per task given under the MERN stack internship progra
 - CRUD Operations
 - Student Details
 
+## 🖼️ Screenshots : <a name = "screenshots"></a>
+
+- **Landing Page**
+  ![Clip-1](/images/work/Img-1.png)
+
+- **User Log-In**
+  ![Clip-1](/images/work/Img-2.png)
+
+- **Admin access**
+  ![Clip-1](/images/work/Img-3.png)
+
+- **Student Details**
+  ![Clip-1](/images/work/Img-4.png)
+
 ## 🔧 Tech-Stack : <a name = "tech-stack"></a>
 
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="NodeJS" src="https://img.shields.io/badge/node.js%20-%23323330.svg?&style=for-the-badge&logo=node.js&logoColor=%green"/> <img alt="NPM" src="https://img.shields.io/badge/npm%20-%23323330.svg?&style=for-the-badge&logo=npm&logoColor=%red"/>
