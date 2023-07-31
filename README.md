@@ -15,16 +15,16 @@ The project is designed as per task given under the MERN stack internship progra
 ## 🖼️ Screenshots : <a name = "screenshots"></a>
 
 - **Landing Page**
-  ![Clip-1](/images/work/Img-1.png)
+  ![Img-1](/images/work/Img-1.png)
 
 - **User Log-In**
-  ![Clip-1](/images/work/Img-2.png)
+  ![Img-2](/images/work/Img-2.png)
 
 - **Admin access**
-  ![Clip-1](/images/work/Img-3.png)
+  ![Img-3](/images/work/Img-3.png)
 
 - **Student Details**
-  ![Clip-1](/images/work/Img-4.png)
+  ![Img-4](/images/work/Img-4.png)
 
 ## 🔧 Tech-Stack : <a name = "tech-stack"></a>
 
